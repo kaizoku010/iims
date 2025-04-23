@@ -32,7 +32,7 @@ function Login() {
           <label>Token</label>
           <span className='input-border'></span>
         </div>
-        <Link to="/dashboard">
+        <Link>
         <button type='submit' className='btn-login btn-primary btn-lg login-btn'>Login</button>
         </Link>
         <p className='helper-text'>Don't have an account? <a  href='#'>Contact Support</a> here.</p>
